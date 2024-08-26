@@ -2,13 +2,13 @@ Chronological Dating and Restoration of Ancient Inscriptions Using Neural Networ
 
 This project involves two main tasks:
 
-Chronological Dating:
+Chronological Dating(ameros.py):
 
 Objective: Predict the exact date of ancient Greek inscriptions using a neural network.
 Data: 2,802 inscriptions from the PHI database with text transcriptions and date ranges.
 Approach: Preprocess text (tokenization, TF-IDF), develop and train a neural network model, and evaluate performance.
 
-Restoration:
+Restoration(bmeros.py):
 
 Objective: Restore partially damaged inscriptions using a Genetic Algorithm (GA).
 Approach: Use GA to predict missing words based on similar inscriptions from the same region and evaluate restoration accuracy through cosine similarity.
