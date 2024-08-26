@@ -1,5 +1,3 @@
-Chronological Dating and Restoration of Ancient Inscriptions Using Neural Networks and Genetic Algorithms
-
 This project involves two main tasks:
 
 Chronological Dating(ameros.py):
