@@ -31,4 +31,9 @@ Reconstruct missing or damaged parts of inscriptions.
 
 This pipeline combines neural networks for chronological prediction and evolutionary algorithms for semantic restoration, contributing to the digital analysis and preservation of ancient texts.
 
+## Author
+
+Christiana Mousele  
+University of Patras  
+Academic Year: 2023/24
 
