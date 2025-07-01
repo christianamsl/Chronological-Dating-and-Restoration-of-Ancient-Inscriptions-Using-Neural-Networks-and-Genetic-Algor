@@ -1,13 +1,34 @@
-This project involves two main tasks:
 
-Chronological Dating(ameros.py):
+# Ancient Greek Inscriptions: Dating and Restoration
 
-Objective: Predict the exact date of ancient Greek inscriptions using a neural network.
-Data: 2,802 inscriptions from the PHI database with text transcriptions and date ranges.
-Approach: Preprocess text (tokenization, TF-IDF), develop and train a neural network model, and evaluate performance.
+This project focuses on the computational analysis of ancient Greek inscriptions, tackling two core tasks using machine learning and evolutionary algorithms:
 
-Restoration(bmeros.py):
+## 1. Chronological Dating (`ameros.py`)
 
-Objective: Restore partially damaged inscriptions using a Genetic Algorithm (GA).
-Approach: Use GA to predict missing words based on similar inscriptions from the same region and evaluate restoration accuracy through cosine similarity.
-The project integrates neural networks for dating and genetic algorithms for text restoration, advancing methods for analyzing and preserving ancient texts.
+**Objective:**  
+Predict the exact chronological date of ancient Greek inscriptions based on their text content.
+
+**Dataset:**  
+- 2,802 inscriptions from the PHI (Packard Humanities Institute) database.
+- Each inscription includes its transcribed text and a known date range.
+
+**Approach:**  
+- Preprocess texts with tokenization and TF-IDF vectorization.
+- Train a neural network model to regress the precise date.
+- Evaluate model performance using appropriate regression metrics.
+
+## 2. Restoration (`bmeros.py`)
+
+**Objective:**  
+Reconstruct missing or damaged parts of inscriptions.
+
+**Approach:**  
+- Apply a Genetic Algorithm (GA) to predict missing words.
+- Leverage textual similarity with inscriptions from the same region or time period.
+- Use cosine similarity to evaluate the quality of the restorations.
+
+## Summary
+
+This pipeline combines neural networks for chronological prediction and evolutionary algorithms for semantic restoration, contributing to the digital analysis and preservation of ancient texts.
+
+
